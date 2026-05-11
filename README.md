@@ -1,6 +1,8 @@
-# OptCRBM
+# optcrbm
 
-OptCRBM is a tutorial project for learning Convolutional Restricted Boltzmann Machines (CRBMs) and simple evolutionary hyperparameter search.
+optcrbm is a tutorial project for learning Convolutional Restricted Boltzmann Machines (CRBMs), contrastive divergence training, and evolutionary hyperparameter optimization with Genetic Algorithms and Genetic Programming.
+
+PyTorch CRBM tutorials with Semeion image data, GA/GP optimization, Jupyter notebooks, tests, and an optional PyQt GUI.
 
 The original code was built for an undergraduate research project. The current package turns that work into a safer learning path with examples, tests, a small PyQt GUI, and preserved historical scripts under `legacy/`.
 
