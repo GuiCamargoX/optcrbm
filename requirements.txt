@@ -1,0 +1,14 @@
+numpy>=1.24
+torch
+scipy
+Pillow
+scikit-learn
+pandas
+matplotlib
+openpyxl
+
+# Optional workflows:
+# jupyter     # Tutorial notebooks in notebooks/
+# tensorflow  # MNIST loaders use tensorflow.keras.datasets.mnist
+# PyQt5       # InterfaceGrafica GUI
+# deap        # GA/GP hyperparameter search

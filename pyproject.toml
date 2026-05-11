@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optcrbm"
+version = "0.1.0"
+description = "Tutorial-oriented Convolutional Restricted Boltzmann Machine experiments"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "torch",
+    "scipy",
+    "Pillow",
+    "scikit-learn",
+    "pandas",
+    "matplotlib",
+    "openpyxl",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+notebooks = [
+    "jupyter",
+]
+mnist = [
+    "tensorflow",
+]
+gui = [
+    "PyQt5",
+]
+evolutionary = [
+    "deap",
+]
+
+[tool.setuptools.packages.find]
+include = ["optcrbm*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
