@@ -6,6 +6,8 @@ PyTorch CRBM tutorials with Semeion image data, GA/GP optimization, Jupyter note
 
 The original code was built for an undergraduate research project. The current package turns that work into a safer learning path with examples, tests, a small PyQt GUI, and preserved historical scripts under `legacy/`.
 
+The undergraduate manuscript for the original work is available here: [Otimização de Hiperparâmetros para Redes de Boltzmann Restritas Convolucionais](https://dco-unesp-bauru.github.io/tcc-bcc-2020-1/trabalho/2020/07/01/GuilhermeCO.html).
+
 ## What You Will Learn
 
 - How a CRBM learns convolutional filters from image data.
